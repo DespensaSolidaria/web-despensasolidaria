@@ -1,0 +1,950 @@
+.table-header-collapse {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#resultsTableVehicle td {
+  font-size: 10px;
+}
+.despensasolidaria-bg-primary.btnSendDocument::before,
+.btnSendDocumentPartner::before {
+  content: "file_upload";
+  font-family: "Material Icons";
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: "liga";
+  -moz-osx-font-smoothing: grayscale;
+}
+.esqueci-senha:hover {
+  text-decoration: underline;
+}
+
+.esqueci-senha {
+  color: var(--main-palette-color-primary-03, #414042);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  letter-spacing: 0.00938rem;
+  text-align: right;
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+
+.despensasolidaria-bg-primary-outline {
+  outline: 1px solid;
+}
+.optionCreated td {
+  max-width: 300px;
+  word-break: break-word;
+}
+
+.w-100 {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.token-input {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-esqueci p {
+  color: var(--main-palette-color-primary-03, #414042);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 1.05rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.form-esqueci h2 {
+  color: var(--main-palette-color-primary-03, #414042);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: 0.00938rem;
+}
+#textareacnae {
+  height: auto !important;
+}
+.collapsible-body .title-2 {
+  margin-top: 0;
+}
+.table-header-collapse tr {
+  border: none;
+}
+.btn-client-not-account {
+  max-width: 480px;
+  line-height: 1.25em;
+  color: #444;
+  flex-direction: column;
+  display: flex;
+}
+.tabs {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.intern-worker-desc {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 0 22px;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.mt-1 {
+  margin-top: 1rem !important;
+}
+
+.text-secondary-desc {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+#barAct1,
+#barAct2,
+#barAct3,
+#barAct4,
+#barAct5 {
+  outline: 1px solid #ddd;
+}
+
+#barAct1 .collapsible-body,
+#barAct2 .collapsible-body,
+#barAct3 .collapsible-body,
+#barAct4 .collapsible-body,
+#barAct5 .collapsible-body {
+  border-color: transparent;
+}
+.d-block {
+  display: block;
+}
+.btn-client-not-account .btn {
+  margin-top: 0.75rem;
+  max-width: 180px;
+}
+.select-search ul {
+  top: 45px !important;
+}
+#rowDadosBancario p {
+  font-size: 12px;
+}
+#resultsTableRealstate td {
+  word-break: break-all;
+}
+.select-wrapper .caret {
+  background-color: transparent;
+}
+html .sidenav .user-view .name {
+  margin-top: 0;
+}
+
+.file-field.input-field {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.btn-modal {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 1em;
+  right: 0;
+  padding-top: 10px;
+  top: 0px;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.btn-print-despensasolidaria {
+  color: #fff;
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  min-width: 135px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.btn-modal i {
+  font-size: 30px;
+}
+
+html .sidenav .user-view .email {
+  padding-bottom: 0;
+}
+.active .collapsible-body {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+.despensasolidaria-divider-breakline {
+  min-height: 60px;
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+#resultsCard {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.title-1,
+.card-panel .title-1 {
+  font-weight: 300;
+  color: #5f5c6b;
+  font-size: 2rem;
+  line-height: 1em;
+  margin: 0 0 2rem;
+  text-align: left;
+}
+.despensasolidaria-index-bg {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.despensasolidaria-bg-third {
+  background-color: #f2f2f2;
+}
+
+.despensasolidaria-login-bg {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/img1.jpg");
+  background-color: #f2f2f2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 35%;
+  position: relative;
+}
+
+.title-2,
+.card-panel .title-2 {
+  font-weight: 300;
+  color: #5f5c6b;
+  font-size: 2rem;
+  line-height: 1em;
+  margin: 1.75rem 0 1rem;
+  text-align: left;
+}
+.despensasolidaria-login-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  height: 30.5rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.form-login {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.despensasolidaria-login-card .btn-large {
+  max-width: 200px;
+  text-transform: capitalize;
+  height: 40px;
+  line-height: 1em;
+  width: 170px;
+  border-radius: 10px;
+}
+
+.despensasolidaria-btn-block {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.despensasolidaria-img-sidebar {
+  padding: 10% 10% 2% 10%;
+}
+
+.index-footer h5 {
+  color: #33303e;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.index-footer {
+  width: 100%;
+  background-color: #f1f0f5;
+  box-shadow: 0px 2px 63px rgba(0, 0, 0, 0.13);
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+.index-header {
+  width: 100%;
+  background-color: #f1f0f5;
+  box-shadow: 0px 2px 63px rgba(0, 0, 0, 0.13);
+  padding: 1rem;
+}
+
+.index-header .container {
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.index-header img {
+  width: 120px;
+}
+
+.index-header .btn {
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  text-transform: none;
+  background: rgb(237,178,100);
+  color: #fff;
+}
+.index-icon {
+  width: 360px;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 360px;
+  margin-left: auto;
+  display: block;
+}
+
+.index-text h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #5f5c6b;
+  margin: 0;
+}
+
+.index-text h2 {
+  color: #5f5c6b;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.2em;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.card-option .card-content {
+  transform: scale(1.1);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  -moz-box-pack: center;
+  justify-content: center;
+  -moz-box-align: center;
+  align-items: center;
+  text-align: center;
+  height: 150px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  border: medium none;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px 0px;
+  transition-duration: 100ms;
+  background-color: rgb(237,178,100,255);
+}
+
+.home-container .material-icons {
+  font-size: 2.5rem;
+}
+
+.home-container {
+  min-height: calc(100vh - 104px);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.card-option {
+  padding: 20px 10px;
+}
+
+#slide-out.reduced {
+  padding-top: 1rem;
+  max-width: 100px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.reduced .d-none-reducer {
+  display: none;
+}
+
+#slide-out.reduced li {
+  text-align: center;
+  line-height: normal;
+}
+
+#slide-out.reduced li i {
+  width: 100%;
+  margin: 0;
+  height: auto;
+  line-height: 1.85rem;
+}
+
+.dropdown-content.select-dropdown {
+  max-height: 200px;
+}
+
+.despensasolidaria-outline {
+  background-color: transparent;
+  font-weight: 700;
+}
+
+.despensasolidaria-outline.btn:focus,
+.despensasolidaria-outline.btn-large:focus,
+.despensasolidaria-outline.btn-small:focus,
+.despensasolidaria-outline.btn:hover,
+.despensasolidaria-outline.btn-large:hover,
+.despensasolidaria-outline.btn-small:hover {
+  color: #fff;
+}
+
+#slide-out.reduced li a {
+  padding: 1rem 10px;
+  height: auto;
+  line-height: 1.5em;
+}
+
+#slide-out .despensasolidaria-img-sidebar {
+  max-height: 150px;
+  object-fit: contain;
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+}
+
+#slide-out {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.row.index-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  min-height: calc(100vh - 190px);
+}
+
+.despensasolidaria-side-logo {
+  object-fit: contain;
+  width: 30px;
+  height: 44px;
+  margin-top: 10px;
+}
+
+nav .brand-logo.right {
+  right: 0.5rem;
+  padding: 0;
+  height: 64px;
+  width: 40px;
+}
+
+@media only screen and (max-width: 940px) {
+  .row.index-row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .row.index-row .col.s1 {
+    width: 100%;
+  }
+  .index-icon {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    height: 240px;
+    width: 240px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .index-header .container {
+    flex-direction: column;
+  }
+
+  .index-header .container .btn.btn-primary {
+    margin-top: 15px;
+  }
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-left: auto;
+}
+
+.btn-centralized {
+  display: block;
+  margin: auto;
+  max-width: max-content;
+}
+
+.input-phone-btn,
+.input-renda-btn {
+  position: absolute;
+  right: 10px;
+  width: 45px;
+  top: 0;
+  height: 45px;
+  border-radius: 0;
+  font-size: 1.2rem;
+  padding: 0;
+}
+
+.pagination {
+  width: max-content;
+  max-width: 100%;
+  margin: 2em auto 0;
+}
+
+.optionCreated span {
+  background-color: #ff5c5b;
+  height: 20px;
+  border-radius: 50%;
+  width: 20px;
+  display: block;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.4em;
+  margin: auto;
+}
+
+.card-panel.despensasolidaria-card {
+  padding: 2rem;
+  position: relative;
+  border-radius: 25px;
+  margin-top: 2em;
+}
+
+#resultsTableRealstate li:not(.active) .collapsible-body,
+#resultsTableVehicle li:not(.active) .collapsible-body {
+  display: none !important;
+}
+
+.card-panel h4 {
+  color: #444;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.input-addornament button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-weight: 700;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+.input-addornament {
+  position: relative;
+}
+
+.icon-document i {
+  font-size: 2.5rem;
+  line-height: 1em;
+  text-align: center;
+}
+.icon-document h4 {
+  margin-bottom: 1rem;
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.icon-document h4:hover {
+  text-decoration: underline;
+}
+
+.icon-document {
+  padding: 15px;
+  text-align: center;
+}
+
+.preloader-background {
+  position: fixed;
+  z-index: 99999;
+  background-color: #fffd;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.card-select {
+  display: block;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.row {
+  width: 100%;
+}
+
+.select-dropdown li,
+.select-dropdown li span {
+  color: #444;
+}
+
+.card.card-select {
+  display: block;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.despensasolidaria-index-bg {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.despensasolidaria-bg-third {
+  background-color: #f2f2f2;
+}
+
+.despensasolidaria-login-bg {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/img1.jpg");
+  background-color: #f2f2f2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 35%;
+  position: relative;
+}
+
+.despensasolidaria-login-bg .container {
+  position: relative;
+  z-index: 2;
+}
+
+.token-input input.token-style {
+  margin-inline: 5px;
+  border-radius: var(--1, 0.5rem);
+  border: 1px solid #414042;
+  width: calc(100% / 6 - 15px);
+  text-align: center;
+}
+.token-resend:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.token-resend:focus {
+  background-color: transparent;
+}
+.token-resend {
+  color: var(--main-palette-color-primary-03, #414042);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.00938rem;
+  background-color: transparent;
+  border: none;
+}
+
+.despensasolidaria-login-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  height: 30.5rem;
+  position: relative;
+  width: 400px;
+  justify-content: center;
+}
+
+.despensasolidaria-login-bg-overlay {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(237,178,100, 0.45);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+}
+.nav-wrapper {
+  background-color: #fff !important;
+}
+.form-login {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.despensasolidaria-login-card .btn-large {
+  max-width: 200px;
+  text-transform: capitalize;
+  height: 40px;
+  line-height: 1em;
+  width: 170px;
+  border-radius: 10px;
+
+  background: rgb(237,178,100);
+  color: #fff;
+}
+
+.jss109 {
+  width: auto;
+  position: absolute;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-left: 10px;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.jss107 {
+  width: 100%;
+  border: solid;
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  padding-top: 5px;
+  border-color: #cccccc;
+  border-width: 1px;
+  border-radius: 5px 0 0 5px;
+  padding-right: 10px;
+  justify-content: right;
+}
+
+.active .preloader-document {
+  text-align: center;
+}
+
+.jss108 .btnSendDocument,
+.jss108 .btnSendDocumentPartner,
+.jss108 a.btnSendDocumentStyle {
+  max-width: 6px;
+  height: 40px;
+  padding: 0;
+  min-width: 45px;
+  line-height: 40px;
+  border-radius: 0 5px 5px 0;
+}
+
+.sColaborador {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 0 22px;
+}
+
+.jss107 {
+  border-radius: 5px;
+}
+
+.fDocumentSelected {
+  width: 100%;
+  padding: 5px 10px 0;
+}
+
+#resultsTableDocuments {
+  overflow-x: scroll;
+  width: 100%;
+  display: flex;
+}
+.modal1Container {
+  padding-top: 1.25rem;
+}
+.w-100 {
+  width: 100%;
+}
+.relatorioTitleTable {
+  text-align: center;
+  margin-top: 1rem;
+}
+.material-icon-modal2 {
+  width: 30px;
+  padding: 0;
+  height: 30px;
+  line-height: 26px;
+  position: relative;
+  top: -4px;
+  left: 0;
+}
+.colClientContainer {
+  padding: 1rem 0;
+}
+.colClient {
+  padding-top: 10px;
+}
+.btn-notfound {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.btn-notfound img {
+  width: auto;
+  max-width: 100%;
+}
+.formDataContainer {
+  width: 100%;
+  display: flex;
+}
+.p-0 {
+  margin: 0 !important;
+}
+.m-0 {
+  padding: 0 !important;
+}
+.jss108 a.btnSendDocument,
+.jss108 a.btnSendDocumentPartner,
+.jss108 a.btnSendDocumentStyle {
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.collapsible-body {
+  position: relative;
+}
+
+.jss108 {
+  display: flex;
+}
+
+.jss107 .actived {
+  width: 100%;
+  padding: 5px 10px;
+  overflow: hidden;
+  word-wrap: anywhere;
+  line-height: 20px;
+}
+
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+}
+
+.jss110 {
+  width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+}
+.jss110 p {
+  margin: 3px 0 0;
+}
+
+.active .collapsible-body ul {
+  width: 100%;
+}
+
+@media print {
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+  .tablePrint * {
+    font-size: 12px !important;
+  }
+}
+
+.legendTable {
+  display: block;
+  width: 100%;
+  color: #222;
+  line-height: 1.1em;
+}
+
+.input-field.col label {
+  left: 0.75rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
