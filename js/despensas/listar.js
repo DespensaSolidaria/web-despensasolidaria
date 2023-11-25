@@ -63,11 +63,11 @@ function renderPage(set) {
 function templatOption(data) {
   if (data !== undefined) {
     return `<tr>
-      <td>${data.nome}</td>
-      <td>${formatCnpjCpf(data.documento)}</td>
-      <td><a href="./usuario-analisar?idUsuario=${
+      <td>${tipoDespensa(data.tipo_ponto_doacao)}</td>
+      <td>${data.logradouro}, ${data.numero}<br>${data.bairro}, ${data.cidade}-${data.uf}<br>CEP: ${formatCEP(data.cep)}<br></td>
+      <td><a href="./despensa-analisar?idDespensa=${
         data.id
-      }" style="margin: 5px;" data-position="bottom" data-tooltip="Ver dados sobre cliente"  class="tooltipped waves-effect waves-light btn despensasolidaria-bg-primary"><i class="material-icons">assignment</i></a></td>
+      }" style="margin: 5px;" data-position="bottom" data-tooltip="Ver dados sobre despensa"  class="tooltipped waves-effect waves-light btn despensasolidaria-bg-primary"><i class="material-icons">assignment</i></a></td>
     </tr>`;
   }
   return "";
@@ -84,7 +84,7 @@ $(document).ready(function () {
     emptySearch();
     $(".pagination").html("");
     $.ajax({
-      url: "./php/users/list.php",
+      url: "./php/donatePoints/list.php",
       type: "post",
       dataType: "json",
       data: formData,

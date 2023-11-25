@@ -102,6 +102,56 @@
       return $req->message;
 		}
 
+    public function listDonatePoints($token, $data) {
+      $headers = [
+        "Content-Type: application/json",
+        "Authorization: Bearer ".$token
+      ];
+
+      $url = $this->baseUrl . '/reports/donate-points?';
+
+      $url .= "di=".$data["di"]."&";
+      $url .= "df=".$data["df"]."&";
+      $url .= "tipoPontoDoacao=".$data["tipoPontoDoacao"];
+
+      $req = $this->get($url, $headers);
+
+      if(!isset($req->errorCode))
+       
+        return $req;
+      return $req->message;
+		}
+
+    public function getDonatePointById($token, $id) {
+      $headers = [
+        "Content-Type: application/json",
+        "Authorization: Bearer ".$token
+      ];
+
+      $url = $this->baseUrl."/donate-point/$id";
+
+      $req = $this->get($url, $headers);
+
+      if(!isset($req->errorCode))
+        return $req;
+      return $req->message;
+		}
+
+    public function createDonatePoint($token, $data) {
+      $headers = [
+        "Content-Type: application/json",
+        "Authorization: Bearer ".$token
+      ];
+
+      $url = $this->baseUrl . '/donate-point/create';
+
+      $req = $this->post($url, $headers, json_encode($data));
+
+      if(!isset($req->errorCode))
+        return $req;
+      return $req->message;
+		}
+
 		public function getCEP($cep) {
 			$url = 'https://viacep.com.br/ws/'.$cep.'/json/';
 			return $this->get($url, []);

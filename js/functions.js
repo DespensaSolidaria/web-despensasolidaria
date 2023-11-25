@@ -71,6 +71,13 @@ function formatMoney(number) {
   });
 }
 
+function tipoDespensa(tipoDespensa) {
+  switch(tipoDespensa) {
+    case "G": return "Refrigerada";
+    case "Q": return "Comum";
+  }
+}
+
 function validateField(rel, field, display = null) {
   if (field === "") {
     $(rel).addClass("invalid");
