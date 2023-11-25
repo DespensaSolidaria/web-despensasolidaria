@@ -1,45 +1,48 @@
 $(document).ready(function () {
   const $_GET = getURLVariables();
-  const userId = $_GET["idUsuario"];
+  const donatePointId = $_GET["idDespensa"];
   $(".preloader-background").removeClass("hide");
   $("#dataTable").hide();
 
-  if ($_GET["idUsuario"] === undefined) {
+  if ($_GET["idDespensa"] === undefined) {
     $(".preloader-background").removeClass("hide");
     Swal.fire({
       icon: "error",
       title: "Oops...",
       confirmButtonColor: "#edb264",
       buttonsStyling: true,
-      text: "Usuário não encontrado!",
+      text: "Despensa não encontrada!",
     }).then(() => {
-      window.location.href = "./usuarios";
+      // window.location.href = "./despensas";
     });
   }
 
   $.ajax({
-    url: "./php/users/getUserById.php",
+    url: "./php/donatePoints/getDonatePointById.php",
     type: "post",
     dataType: "json",
     data: {
-      userId,
+      donatePointId,
     },
     success: function (response) {
       $(".preloader-background").addClass("hide");
       $(".collapsible label").addClass("active");
 
-      $("#txtNomeRazaoSocial").val(response.nome);
-      $("#txtNomePreferencial").val(response.nome_preferencial);
-      $("#txtCpfCnpj").val(formatCnpjCpf(response.documento));
-      $("#dtDataNascimento").val(response.data_nascimento);
-      $("#txtEmail").val(response.email);
+      $("#txtTipoDespensa").val(tipoDespensa(response.tipo_ponto_doacao));
+      $("#txtLogradouro").val(response.logradouro);
+      $("#txtNumero").val(response.numero);
+      $("#txtBairro").val(response.bairro);
+      $("#txtCidade").val(response.cidade);
+      $("#txtUF").val(response.uf);
+      $("#txtComplemento").val(response.complemento);
+      $("#txtCEP").val(formatCEP(response.cep));
 
       let rowBiometrias = "";
       const dadosBiometrias = response.biometrias;
       dadosBiometrias.forEach((row) => {
         rowBiometrias += `<div class="row">
         <div class="col s12 m12 l12 xl12">
-          <span><a href="./despensa-analisar?idDespensa=${row.ponto_doacao.id}">Despensa: ${row.ponto_doacao.id}</a></span>
+          <span><a href="./usuario-analisar?idUsuario=${row.usuario.id}">${row.usuario.nome}</a></span>
         </div>
       `;
       });
@@ -53,6 +56,7 @@ $(document).ready(function () {
       M.updateTextFields();
     },
     error: function (err) {
+      console.log(err);
       Swal.fire({
         icon: "error",
         title: "Oops...",

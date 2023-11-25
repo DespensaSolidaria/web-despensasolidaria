@@ -1,19 +1,3 @@
-var savedPhone = "";
-var savedPhoneVal = "";
-var tempRenda = "";
-var tempRendaVal = "";
-var tempRendaDesc = "";
-var tempRendaType = "";
-var banks = {
-  context: {},
-  ispb: {},
-};
-
-var cbos = {
-  code: {},
-  title: {},
-};
-
 const validateForm = () => {
   return (
     validateField("#txtNome", $("#txtNome").val(), "Nome Completo") &&
